@@ -1,3 +1,5 @@
+import './scss/style.scss';
+
 import { Provider } from 'react-redux';
 import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 
@@ -10,6 +12,7 @@ import { Home } from './view/home-page';
 export function App() {
 
   return (
+
     <Provider store={store}>
       < Router >
         <section className="main-layout app">

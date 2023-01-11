@@ -1,93 +1,41 @@
-[
-  {
-    "name": "32",
-    "price": 1,
-    "labels": [
-      "On wheels",
-      "Outdoor",
-      "Battery Powered"
-    ],
-    "createdAt": 1673360016937,
-    "inStock": true,
-    "_id": "LXoIX",
-    "createAt": 1673360021123
-  },
-  {
-    "name": "dddddddd",
-    "price": 1,
-    "labels": [
-      "On wheels",
-      "Outdoor",
-      "Battery Powered"
-    ],
-    "createdAt": 1673360182419,
-    "inStock": true,
-    "_id": "u9FXv",
-    "createAt": 1673360189120
-  },
-  {
-    "name": "dd",
-    "price": 1111111,
-    "labels": [
-      "On wheels",
-      "Outdoor",
-      "Battery Powered"
-    ],
-    "createdAt": 1673360196171,
-    "inStock": true,
-    "_id": "WKTio",
-    "createAt": 1673360200664
-  },
-  {
-    "name": "dsasdas",
-    "price": 202020202020,
-    "labels": [
-      "On wheels",
-      "Outdoor",
-      "Battery Powered"
-    ],
-    "createdAt": 1673360557899,
-    "inStock": true,
-    "_id": "CbmZa",
-    "createAt": 1673360563747
-  },
-  {
-    "name": "ofek",
-    "price": 111220,
-    "labels": [
-      "On wheels",
-      "Outdoor",
-      "Battery Powered"
-    ],
-    "createdAt": 1673360916457,
-    "inStock": true,
-    "_id": "sqAlD",
-    "createAt": 1673360923652
-  },
-  {
-    "name": "rrr",
-    "price": 123,
-    "labels": [
-      "On wheels",
-      "Outdoor",
-      "Battery Powered"
-    ],
-    "createdAt": 1673362449707,
-    "inStock": true,
-    "_id": "3gP97",
-    "createAt": 1673362454929
-  },
-  {
-    "name": "1212",
-    "price": 1212,
-    "labels": [
-      "On wheels",
-      "Outdoor",
-      "Battery Powered"
-    ],
-    "createdAt": 1673380289311,
-    "inStock": true,
-    "_id": "YSfmc",
-    "createAt": 1673380293269
-  }
+[{
+  "_id": "t101",
+  "name": "Talking Doll",
+  "price": 123,
+  "labels": ["Doll", "Battery Powered", "Baby"],
+  "createdAt": 1631031801011,
+  "inStock": true
+}, 
+{
+ "_id": "t102",
+  "name": "Dragon puzzle",
+  "price": 52,
+  "labels": ["Box game", "Art", "Puzzle"],
+  "createdAt": 1631031801011,
+  "inStock": true
+}, 
+{
+  "_id": "t103",
+  "name": "Blue Dog",
+  "price": 85,
+  "labels": ["Baby", "Doll"],
+  "createdAt": 1631031801011,
+  "inStock": true
+}, 
+{
+  "_id": "t104",
+  "name": "Playstation",
+  "price": 100,
+  "labels": ["Battery Powered", "online", "screen"],
+  "createdAt": 1631031801011,
+  "inStock": true
+}, 
+{
+  "_id": "t105",
+  "name": "football",
+  "price": 75,
+  "labels": ["Outdoor", "sport"],
+  "createdAt": 1631031801011,
+  "inStock": false
+}
 ]

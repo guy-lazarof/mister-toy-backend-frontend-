@@ -8,12 +8,14 @@ export const toyService = {
   save,
   remove,
   getEmptyToy,
-  getDefaultFilter
+  getDefaultFilter,
+  getFilterFromSearchParams,
 }
 
 
 function query(filterBy) {
-  const queryParams = `?name=${filterBy.name}&price=${filterBy.price}`
+  if (!filterBy) return httpService.get(BASE_URL)
+  const queryParams = `?name=${filterBy.name}&inStock=${filterBy.inStock}`
   return httpService.get(BASE_URL + queryParams)
 }
 
@@ -47,6 +49,16 @@ function save(toy) {
     return httpService.post(BASE_URL, toy)
   }
 }
+
+function getFilterFromSearchParams(searchParams) {
+  const emptyFilter = getDefaultFilter()
+  const filterBy = {}
+  for (const field in emptyFilter) {
+    filterBy[field] = searchParams.get(field) || ''
+  }
+  return filterBy
+}
+
 
 function getDefaultFilter() {
   return { name: '', inStock: '', labels: '' }
